@@ -2579,14 +2579,90 @@ div.nav-sub {
   background: -webkit-linear-gradient(top, #ffffff 0%, #e1e3e4 100%);
   background: linear-gradient(to bottom, #ffffff 0%, #e1e3e4 100%); }
 
-.hero {
-  padding-top: 60px !important; }
-
 .marquee-wrapper {
-  min-height: 500px;
-  max-height: 500px;
   position: relative;
-  top: 140px; }
-  @media screen and (min-width: 768px) {
-    .marquee-wrapper {
-      top: 100px; } }
+  top: 140px;
+  margin-bottom: 140px; }
+
+.marquee {
+  min-height: 440px;
+  max-height: 440px; }
+
+@media screen and (max-width: 767px) {
+  .marquee {
+    min-height: 360px;
+    max-height: 360px;
+    top: 0px; } }
+.caroussel {
+  padding: 0 0 0 80px; }
+
+.caroussel-caption {
+  padding: 42px 15px;
+  width: 320px;
+  height: 440px;
+  background-color: rgba(255, 255, 255, 0.85); }
+  .caroussel-caption h2 {
+    color: #005293;
+    font-size: 29px;
+    font-family: "OpenSans-Semibold", sans-serif;
+    line-height: 37px;
+    margin-bottom: 10px; }
+  .caroussel-caption h3 {
+    color: #3a3a3a;
+    font-size: 17px;
+    line-height: 25px; }
+  .caroussel-caption h4 {
+    color: #121212;
+    font-size: 22px;
+    line-height: 30px;
+    margin: 10px 0 35px; }
+  .caroussel-caption a.btn-marquee {
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 10px 2.5rem; }
+    .caroussel-caption a.btn-marquee i {
+      padding-left: 6px; }
+
+.caroussel-item {
+  max-height: 440px; }
+
+.caroussel-overlay-img {
+  position: relative;
+  bottom: 165px;
+  left: 225px; }
+
+.marquee-nav {
+  height: 100px;
+  border-bottom: 1px solid #a0a4a7;
+  background-color: #dadee0;
+  background: -webkit-linear-gradient(top, #ffffff 0%, #dadee0 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #dadee0 100%); }
+
+.caroussel-indicators {
+  height: 100px; }
+
+ul.marquee-nav-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100px; }
+  ul.marquee-nav-ul li {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 20%;
+            flex: 1 20%;
+    text-align: center; }
+    ul.marquee-nav-ul li a {
+      color: #5f6a70; }
+    ul.marquee-nav-ul li i {
+      font-size: 34px; }
+
+.marquee-spacer {
+  height: 80px;
+  background-color: white; }

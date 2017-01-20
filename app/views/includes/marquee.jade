@@ -1,14 +1,43 @@
 - var ns = home.ns
-#marquee-wrapper.marquee-wrapper(style='background: url(/images/0.jpg); background-size: cover; background-position: center top;')
+#marquee-wrapper.marquee-wrapper
 
-  #marquee
-    #marquee-proper.marquee-proper
-      .caroussel
-        h1 hero
+  #marquee.marquee(style='background: url(/images/0.jpg); background-size: cover; background-position: center top;')
 
-    #marquee-nav
-      a(href="#") Anesthesia Machines
-      a(href="#") Patient Monitors
-      a(href="#") Surgical Tables
-      a(href="#") Surgical Lights
-      a(href="#") Electrosurgical Units
+    .caroussel.page-width
+      .caroussel-item
+        .caroussel-caption
+          h2 Surgical Lighting System
+          h3 Power Procedure Chair
+          h4 Patient monitoring solutions for your medical facility
+          a.btn-main.btn-marquee(href='#') More info
+            i.fa.fa-arrow-right
+        .caroussel-overlay-img
+          img(src='/images/product-1.png')
+      .caroussel-indicators
+        p Caroussel Indicator!
+
+  #marquee-spacer.marquee-spacer
+
+  #marquee-nav.marquee-nav
+    .page-width
+      ul.marquee-nav-ul
+        li
+          a(href='#')
+            i.fa.fa-arrow-circle-up
+            p Anesthesia Machines
+        li
+          a(href='#')
+            i.fa.fa-arrow-circle-up
+            p Patient Monitors
+        li
+          a(href='#')
+            i.fa.fa-arrow-circle-up
+            p Surgical Tables
+        li
+          a(href='#')
+            i.fa.fa-arrow-circle-up
+            p Surgical Lights
+        li
+          a(href='#')
+            i.fa.fa-arrow-circle-up
+            p Electrosurgical Units
