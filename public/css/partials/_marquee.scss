@@ -24,11 +24,11 @@
   }
 }
 
-.caroussel {
+.carousel {
   padding: 0 0 0 80px;
 }
 
-.caroussel-caption {
+.carousel-text {
 
   padding: 42px 15px;
   width: 320px;
@@ -63,14 +63,13 @@
     padding: 10px 2.5rem;
     i { padding-left: 6px; }
   }
-
 }
 
-.caroussel-item {
+.carousel-item {
   max-height: 440px;
 }
 
-.caroussel-overlay-img {
+.carousel-overlay-img {
   position: relative;
   bottom: 165px;
   left: 225px;
@@ -83,7 +82,7 @@
   background: linear-gradient(to bottom, #ffffff 0%,#dadee0 100%);
 }
 
-.caroussel-indicators {
+.carousel-indicators {
   height: 100px;
 }
 

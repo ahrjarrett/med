@@ -2598,41 +2598,41 @@ div.nav-sub {
     min-height: 360px;
     max-height: 360px;
     top: 0px; } }
-.caroussel {
+.carousel {
   padding: 0 0 0 80px; }
 
-.caroussel-caption {
+.carousel-text {
   padding: 42px 15px;
   width: 320px;
   height: 440px;
   background-color: rgba(255, 255, 255, 0.85); }
-  .caroussel-caption h2 {
+  .carousel-text h2 {
     color: #005293;
     font-size: 29px;
     font-family: "OpenSans-Semibold", sans-serif;
     line-height: 37px;
     margin-bottom: 10px; }
-  .caroussel-caption h3 {
+  .carousel-text h3 {
     color: #3a3a3a;
     font-size: 17px;
     line-height: 25px; }
-  .caroussel-caption h4 {
+  .carousel-text h4 {
     color: #121212;
     font-size: 22px;
     line-height: 30px;
     margin: 10px 0 35px; }
-  .caroussel-caption a.btn-marquee {
+  .carousel-text a.btn-marquee {
     border-radius: 5px;
     font-size: 1.5rem;
     color: #fff;
     padding: 10px 2.5rem; }
-    .caroussel-caption a.btn-marquee i {
+    .carousel-text a.btn-marquee i {
       padding-left: 6px; }
 
-.caroussel-item {
+.carousel-item {
   max-height: 440px; }
 
-.caroussel-overlay-img {
+.carousel-overlay-img {
   position: relative;
   bottom: 165px;
   left: 225px; }
@@ -2644,7 +2644,7 @@ div.nav-sub {
   background: -webkit-linear-gradient(top, #ffffff 0%, #dadee0 100%);
   background: linear-gradient(to bottom, #ffffff 0%, #dadee0 100%); }
 
-.caroussel-indicators {
+.carousel-indicators {
   height: 100px; }
 
 ul.marquee-nav-ul {
