@@ -39,35 +39,35 @@ module.exports = function IndexData(opts) {
 	};
 
 	this.info = {
-		header: 'Why Sun Ray Pools?',
+		header: 'New & Used Medical Equipment',
 		class: 'color-index-view',
 		cards: [
 			{
-					title: 'Our Experience',
-					image: 'resource01.jpg',
-					body: 'Whether you’re looking for a simple, budget-conscious pool or an exotic backyard paradise, we’ve done them all. With over 30 years experience, we know what it takes to get the job done right.',
-					bodySmall: 'With over 30 years experience, we know what it takes to get the job done right.',
+					title: 'Vital Signs Monitors',
+					image: 'info-1.jpg',
+					body: 'These vital signs monitors are available new or professionally refurbished to original factory specifications by our trained biomedical technicians. Every refurbished machine from DME Medical comes backed by a warranty.',
+					bodySmall: 'Every refurbished machine from DME Medical comes backed by a warranty.',
 					anchor: {
 						route: 'about-us',
 						text: 'Learn more'
 					},
-					caption: 'Know what you can expect.'
+					caption: 'Know what to expect.'
 			},
 			{
-					title: 'Our Focus',
-					image: 'resource02.jpg',
-					body: 'Sun Ray Pools has one focus: Building unique and beautiful custom pools. Our job is to turn your dreams into a backyard reality that will be enjoyed and admired by friends and family for many years to come.',
+					title: 'Defibrillators',
+					image: 'info-2.jpg',
+					body: 'DRE offers defibrillators in a variety of configurations, from manually-operated defibrillators for EMS professionals to wall-mounted AED units that allow non-medical personnel to offer guided resuscitation in schools, gyms, and other environments.',
 					bodySmall: 'Sun Ray Pools has one focus: Building unique and beautiful custom pools.',
 					anchor: {
 						route: 'swimming-pools',
-						text: 'Check out some pools'
+						text: 'Compare models',
 					},
-					caption: 'You can count on that.'
+					caption: 'Top brands including Philips, Zoll, Lifepak and more.'
 			},
 			{
-					title: 'Our Family',
-					image: 'resource03.jpg',
-					body: 'Spend more quality time with those you love. As a family-owned and -operated business, we know how much you care about your family. That’s why we will always put your family’s best interest first.',
+					title: 'Ultrasound Equipment',
+					image: 'info-3.jpg',
+					body: 'Choose either a factory new, DRE brand or a professionally refurbished unit from an industry-leading brand such as Siemens, GE, Philips and more.',
 					bodySmall: 'Spend more quality time with those you love. Tell us how our family can help yours!',
 					anchor: {
 						route: '#open-modal-contact',
