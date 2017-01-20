@@ -2512,7 +2512,8 @@ ul.navbar-ul {
   margin: 0 auto; }
 
 li.navbar-item a {
-  padding: 14px 10px; }
+  padding: 14px 15px;
+  text-transform: uppercase; }
 
 form.searchform input {
   padding: 9px 0 7px 20px;
@@ -2579,6 +2580,10 @@ div.nav-sub {
   background: -webkit-linear-gradient(top, #ffffff 0%, #e1e3e4 100%);
   background: linear-gradient(to bottom, #ffffff 0%, #e1e3e4 100%); }
 
+.page-narrow {
+  max-width: 1060px;
+  margin: 0 auto; }
+
 .marquee-wrapper {
   position: relative;
   top: 140px;
@@ -2589,7 +2594,7 @@ div.nav-sub {
   max-height: 440px; }
 
 @media screen and (max-width: 767px) {
-  .marquee {
+  .marquee-wrapper {
     min-height: 360px;
     max-height: 360px;
     top: 0px; } }
@@ -2657,11 +2662,17 @@ ul.marquee-nav-ul {
     -webkit-box-flex: 1;
         -ms-flex: 1 20%;
             flex: 1 20%;
-    text-align: center; }
+    text-align: center;
+    padding: 15px; }
+    ul.marquee-nav-ul li:hover p {
+      color: #242628; }
+    ul.marquee-nav-ul li:hover i {
+      color: #11629f; }
     ul.marquee-nav-ul li a {
       color: #5f6a70; }
     ul.marquee-nav-ul li i {
-      font-size: 34px; }
+      font-size: 34px;
+      padding-bottom: 6px; }
 
 .marquee-spacer {
   height: 80px;

@@ -66,11 +66,13 @@ module.exports = function (app) {
 	};
 
 	app.locals.subnav = {
-		'Outdoor Living': 'outdoor-living',
-		// 'About Us': 'about-us',
-		'Special Features': 'special-features',
-		'Financing': 'financing',
-		'Swimming Pools': 'swimming-pools'
+		'Medical Equipment': 'outdoor-living',
+		'Specialties': 'special-features',
+		'Services': 'financing',
+		'Medical Supplies': 'financing',
+		'Resources': 'financing',
+		'Brands': 'financing',
+		'News': 'financing'
 	};
 
 	app.locals.partners = [
