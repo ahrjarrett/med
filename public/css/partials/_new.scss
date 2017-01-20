@@ -4,9 +4,14 @@
 .nav-search-wrapper {
   display: flex;
   position: relative;
-  height: 100px;
+  height: 90px;
   width: 100%;
   padding: 0 calc((100% - 1240px) / 2 );
+}
+.searchbar {
+  @media screen and (max-width: 1150px) {
+    display: none;
+  }
 }
 .nav-search {
   display: flex;
@@ -15,11 +20,12 @@
   width: 100%;
 }
 .nav-search-item {
-  padding-right: 90px;
+  padding-right: 50px;
 }
 .navbar-banner {
   position: absolute;
-  top: 150px;
+  top: 140px;
+  z-index: 1502;
   padding: 0 calc((100% - 1240px) / 2);
   background-color: #11629f;
   background: linear-gradient(to bottom, #1a6ca8 0%,#01528f 100%);
@@ -118,7 +124,9 @@ button.btn-search {
 
 // nav-sub needs to be changed earlier
 div.nav-sub {
-  height: 100px;
+  height: 90px;
+  background-color: #fff;
+  background: linear-gradient(to bottom, #ffffff 0%,#e1e3e4 100%);
 }
 
 

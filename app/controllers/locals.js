@@ -4,10 +4,11 @@ module.exports = function (app) {
 	app.locals.phone = 9723330714;
 	app.locals.rootUrl = 'https://www.sunraypoolstx.com';
 	app.locals.social = {
-    'tel:+19723330714': 'phone',
 		'https://www.facebook.com/SunRayPoolsTX/': 'facebook-square',
 		'https://twitter.com/sunraypoolstx': 'twitter-square',
-		'http://www.houzz.com/pro/sunraypools/': 'houzz'
+		'https://www.linkedin.com/in/andrewhjarrett/': 'linkedin-square',
+    'https://plus.google.com/': 'google-plus',
+    'tel:+19723330714': 'shopping-cart'
 	};
 	app.locals.blog = {
 		features: [
