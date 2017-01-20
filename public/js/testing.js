@@ -1,10 +1,17 @@
 $(function() {
 
-  //// slick initialization
-  //$(document).ready(function() {
-  //  $('.carousel').slick({
-  //    /* settingName: setting */
-  //  })
+  $('a[href="#back-to-top"]').click(function(e) {
+    console.log(e)
+    $('html, body').animate({ scrollTop: 0 }, 'slow')
+    return false
+  })
+
+  //var scrollUp = document.getElementById('back-to-top')
+
+  //scrollUp.addEventListener('click', function(e) {
+  //  e.preventDefault()
+  //  window.scrollTo(10, 100)
+
   //})
 
 

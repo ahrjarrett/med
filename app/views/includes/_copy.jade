@@ -1,7 +1,8 @@
 .footer-bottom
   .navbar-bottom
     ul
-      li: a(href='#') Sign in
+      li
+        a(href='#') #[i.fa.fa-user-plus] Sign in
       li: a(href='#') About
       li: a(href='#') News
       li: a(href='#') Policies
@@ -9,11 +10,6 @@
   .copyright
     p © 2017 #{company}
 
-.back-to-top
-  a(href='#'): i.fa.fa-chevron-up
+#back-to-top.back-to-top
+  a(href='#back-to-top'): i.fa.fa-chevron-up
 
-  //.social
-  //	p Follow us!
-  //		each val, index in social
-  //			a(href= index target='_blank')
-  //				i(class="fa fa-#{val}")

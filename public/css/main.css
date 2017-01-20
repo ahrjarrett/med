@@ -2958,6 +2958,9 @@ ul.marquee-nav-ul {
       color: #898c8f; }
       .navbar-bottom ul li a:hover {
         color: #fff; }
+  .navbar-bottom ul li:first-child {
+    margin-right: 15px;
+    border-right: 1px solid #333; }
 
 .copyright {
   color: #898c8f;
