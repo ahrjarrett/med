@@ -387,6 +387,13 @@ div.img-after h3 {
   .color-purp h3 {
     background: rgba(100, 0, 150, 0.85); } }
 
+@media (max-width: 768px) {
+  .color-dark h3 {
+    background: #002041; } }
+@media (min-width: 768px) {
+  .color-dark h3 {
+    background: rgba(0, 32, 65, 0.85); } }
+
 span.carousel-btn {
   font-size: 30px;
   color: #ddd;
@@ -2617,11 +2624,13 @@ div.nav-sub {
     margin-bottom: 10px; }
   .carousel-text h3 {
     color: #3a3a3a;
-    font-size: 17px;
+    font-size: 18px;
+    font-family: "OpenSans-Light", sans-serif;
     line-height: 25px; }
   .carousel-text h4 {
     color: #121212;
     font-size: 22px;
+    font-family: "OpenSans-BookItalic", sans-serif;
     line-height: 30px;
     margin: 10px 0 35px; }
   .carousel-text a.btn-marquee {
@@ -2680,3 +2689,55 @@ ul.marquee-nav-ul {
 .marquee-spacer {
   height: 80px;
   background-color: white; }
+
+a:visited {
+  color: #ffbb00; }
+
+.about-wrapper {
+  background-color: #11629f;
+  margin-top: 100px; }
+
+.about-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.about-btn {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 50%;
+          flex: 1 50%; }
+
+.btn-bright {
+  font-size: 17px;
+  font-family: "OpenSans-Book", sans-serif;
+  color: #ffbb00;
+  border-bottom: 4px solid transparent;
+  padding-bottom: 4px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  .btn-bright:hover {
+    color: #fff;
+    border-bottom: 4px solid #ffbb00;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+
+.about {
+  padding: 25px 0; }
+  .about h2 {
+    font-family: "OpenSans-Semibold", sans-serif;
+    line-height: 1.3;
+    margin: 0 0 10px 0; }
+  .about p {
+    font-family: "OpenSans-Light", sans-serif;
+    font-size: 15px;
+    color: #b1d0e6;
+    line-height: 1.5; }
+  .about img {
+    position: absolute;
+    bottom: -65px;
+    left: 600px;
+    z-index: 9999;
+    height: 375px; }
+
+.highlighted {
+  color: #ffbb00; }

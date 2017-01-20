@@ -1,0 +1,54 @@
+a:visited { color: #ffbb00; }
+
+.about-wrapper {
+  background-color: $main;
+  margin-top: 100px;
+}
+
+.about-btns {
+  display: flex;
+}
+
+.about-btn {
+  flex: 1 50%;
+}
+
+.btn-bright {
+  font-size: 17px;
+  font-family: $sans;
+  color: #ffbb00;
+  border-bottom: 4px solid transparent;
+  padding-bottom: 4px;
+  transition: all 0.3s ease;
+  &:hover {
+    color: #fff;
+    border-bottom: 4px solid #ffbb00;
+    transition: all 0.3s ease;
+  }
+}
+
+.about {
+  padding: 25px 0;
+  h2 {
+    font-family: $sansSemibold;
+    line-height: 1.3;
+    margin: 0 0 10px 0;
+  }
+  p {
+    font-family: $sansLight;
+    font-size: 15px;
+    color: #b1d0e6;
+    line-height: 1.5;
+  }
+  img {
+    position: absolute;
+    bottom: -65px;
+    left: 600px;
+    z-index: 9999;
+    height: 375px;
+  }
+}
+
+.highlighted {
+  color: #ffbb00;
+}
