@@ -1,5 +1,13 @@
 $(function() {
 
+  // slick initialization
+  $(document).ready(function() {
+    $('.carousel').slick({
+      /* settingName: setting */
+    })
+  })
+
+
 	var imgDir = './images/'
 	var hero0 = new Image()
 	var hero1 = new Image()
@@ -201,44 +209,5 @@ $(function() {
 		$('.active-card').removeClass('active-card')
 		$(this).addClass('active-card')
 	})
-
-	$(".lightbox").fancybox({
-		padding : 0,
-		nextEffect  : 'fade',
-		prevEffect  : 'fade'
-	})
-
-	var skycons = new Skycons({
-  	'color':'#0074E4',
-  	'resizeClear': true
-  }),
-    list  = [
-      "clear-day", "clear-night", "partly-cloudy-day",
-      "partly-cloudy-night", "cloudy", "rain", "sleet", "snow", "wind",
-      "fog"
-    ],
-    i
-	for(i = list.length; i--; )
-	  skycons.set(list[i], list[i])
-	skycons.play()
-
-  var tempDiv = document.getElementById('temperature')
-  var iconDiv = document.querySelector('.weather-icon')
-
-  var request = $.ajax({
-    url: 'weather',
-    dataType: 'json'
-  })
-
-  request.done(function(data){
-    var temperature = Math.round(data.temperature)
-    var icon = data.icon
-    if(tempDiv) tempDiv.innerHTML = temperature + '&#176;'
-    skycons.set('weather-icon', icon)
-  })
-
-  request.fail(function(){
-    console.log('Error!')
-  })
 
 } )
