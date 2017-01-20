@@ -190,7 +190,7 @@ body {
     font-family: "OpenSans-Semibold", sans-serif; }
 
 a:hover {
-  color: #589004;
+  color: #47a305;
   text-decoration: none; }
 
 a:focus {
@@ -429,13 +429,13 @@ span.carousel-btn {
     margin-top: 50px; } }
 
 .btn-main {
-  background: #74c005;
+  background: #47a305;
   padding: 0 2.5rem;
   height: 40px;
   border: 0px; }
   .btn-main:hover {
-    background: -webkit-linear-gradient(bottom, #74c005, #589004);
-    background: linear-gradient(to top, #74c005, #589004); }
+    background: -webkit-linear-gradient(bottom, #74c005, #47a305);
+    background: linear-gradient(to top, #74c005, #47a305); }
 
 .hero-banner-wrapper, .special-banner-wrapper {
   position: relative;
@@ -1467,8 +1467,8 @@ div.quote a:hover img {
   border: 0px; }
   .btn-accent:hover {
     background-color: rgba(116, 192, 5, 0.8);
-    background: -webkit-linear-gradient(top, #589004, #74c005);
-    background: linear-gradient(to bottom, #589004, #74c005);
+    background: -webkit-linear-gradient(top, #47a305, #74c005);
+    background: linear-gradient(to bottom, #47a305, #74c005);
     background-repeat: repeat-x;
     color: #fff; }
 
@@ -2608,9 +2608,12 @@ div.nav-sub {
     min-height: 360px;
     max-height: 360px;
     top: 0px; } }
-.carousel {
-  padding: 0 0 0 80px; }
-
+@media screen and (min-width: 768px) {
+  .carousel {
+    padding: 0 0 0 80px; } }
+@media screen and (max-width: 767px) {
+  .carousel {
+    padding: 0; } }
 .carousel-text {
   padding: 42px 15px;
   width: 320px;
@@ -2630,7 +2633,7 @@ div.nav-sub {
   .carousel-text h4 {
     color: #121212;
     font-size: 22px;
-    font-family: "OpenSans-BookItalic", sans-serif;
+    font-family: "OpenSans-SemiboldItalic", sans-serif;
     line-height: 30px;
     margin: 10px 0 35px; }
   .carousel-text a.btn-marquee {

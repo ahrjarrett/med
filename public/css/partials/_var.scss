@@ -16,7 +16,7 @@ $sansBoldItal: 'OpenSans-BoldItalic', sans-serif;
 $sansLight: 'OpenSans-Light', sans-serif;
 $sansLightItal: 'OpenSans-LightItalic', sans-serif;
 $sansSemibold: 'OpenSans-Semibold', sans-serif;
-$sansSemiboldItal: 'OpenSans-Semibold', sans-serif;
+$sansSemiboldItal: 'OpenSans-SemiboldItalic', sans-serif;
 $sansBlack: 'OpenSans-Black', sans-serif;
 
 $sansBlock: OpenSans-Book, sans-serif;
@@ -39,6 +39,7 @@ $serifLight: 'Sentinel-Light', serif;
 $main: #11629f;
 $hoverLink: #ffab00;
 $dark: #002041;
+$cta: #47a305;
 
 //$main: rgba(0, 116, 228, 1);
 $mainLight: rgba(35, 126, 219, 1);
@@ -59,7 +60,7 @@ $accent: #74c005;
 $accentDark: lighten($accent, .50);
 $accentTrans: transparentize($accent, .20);
 $accentTransLight: transparentize($accent, .50);
-$accentBright: #589004;
+$accentBright: #47a305;
 
 $offWhight: rgba(238, 238, 238, 1);
 $offBlack: rgba(0, 0, 0, 0.85);
