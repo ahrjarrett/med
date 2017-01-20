@@ -2590,6 +2590,30 @@ div.nav-sub {
   background: -webkit-linear-gradient(top, #ffffff 0%, #e1e3e4 100%);
   background: linear-gradient(to bottom, #ffffff 0%, #e1e3e4 100%); }
 
+body {
+  position: relative; }
+
+@media screen and (min-width: 768px) {
+  #stickyNav {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    border-radius: 0; } }
+@media screen and (max-width: 767px) {
+  #stickyNav {
+    display: none; } }
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important; }
+
+.navbar {
+  margin-bottom: 0px; }
+
+.affix ~ .container-fluid {
+  position: relative;
+  top: 50px; }
+
 .page-narrow {
   max-width: 1060px;
   margin: 0 auto; }
@@ -2746,7 +2770,7 @@ ul.marquee-nav-ul {
     position: absolute;
     bottom: -45px;
     left: 600px;
-    z-index: 9999;
+    z-index: 9990;
     height: 375px; }
 
 .highlighted {
@@ -2754,7 +2778,7 @@ ul.marquee-nav-ul {
 
 .news-tiles {
   position: relative;
-  z-index: 9999;
+  z-index: 9991;
   padding: 0;
   background-color: #fff;
   margin: 0 auto; }
@@ -2969,12 +2993,13 @@ ul.marquee-nav-ul {
   color: #898c8f;
   font-family: "OpenSans-Light", sans-serif; }
 
-.back-to-top button {
+a#scrollTop {
   width: 35px;
   height: 35px;
   position: fixed;
   bottom: 20px;
   right: 20px;
+  padding: 4px 0 0 0;
   background-color: #11629f;
   border: 1px solid #103f6b;
   color: #fff !important;
@@ -2982,10 +3007,10 @@ ul.marquee-nav-ul {
   text-align: center;
   z-index: 9999;
   border-radius: 4px; }
-  .back-to-top button:hover {
+  a#scrollTop:hover {
     background-color: #ff9c00;
     border: 1px solid #f57d27; }
-  .back-to-top button i {
+  a#scrollTop i {
     color: #fff !important; }
 
 .soc i {

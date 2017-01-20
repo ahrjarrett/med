@@ -1,6 +1,6 @@
 include ./includes/layout
 include ./mixins/mixins
-body
+body(data-spy='scroll' data-target='.navbar' data-offset='500')
   block content
     +fullnav(url)
     include ./includes/marquee

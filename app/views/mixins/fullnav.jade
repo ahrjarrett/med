@@ -1,7 +1,15 @@
 mixin fullnav(currentPath)
   - var pageUrl= currentPath
 
-  #nav.nav.sticky
+  #top
+  //- sticky nav
+  nav#stickyNav.navbar.affix.navbar-inverse(data-spy='affix' data-offset-top='100')
+    ul.nav.navbar-nav
+      li: a(href='#') Sticky Nav 1
+      li: a(href='#') Sticky Nav 2
+      li: a(href='#') Sticky Nav 3
+
+  #nav.nav
 
     #nav-top.nav-flex(role='navigation')
       .nav-logo-wrapper

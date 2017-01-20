@@ -1,11 +1,25 @@
-$(document).ready(function() {
+(function() {
 
-  $(window).scrollTop(0)
-
-  //$('#scrollTop').click(function() {
-  //  $('html, body').animate({ scrollTop: 0 })
-  //  return false
-  //})
-
+// add
+$('#scrollTop').click(function() {
+  if(location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    var target = $(this.hash)
+    console.log(target)
+    target = target.length
+      ? target
+      : $('[name=' + this.hash.slice(1) + ']')
+    if(target.length) {
+      $('html,body').animate({
+        scrollTop: target.offset().top
+      }, 100)
+      return false
+    }
+  }
 })
+
+//$(window.scroll(function() {
+//  var
+//})
+
+})()
 

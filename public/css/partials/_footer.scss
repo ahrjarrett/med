@@ -64,12 +64,13 @@
   font-family: $sansLight;
 }
 
-.back-to-top button {
+a#scrollTop {
   width: 35px;
   height: 35px;
   position: fixed;
   bottom: 20px;
   right: 20px;
+  padding: 4px 0 0 0;
   background-color: $main;
   border: 1px solid #103f6b;
   color: #fff !important;
