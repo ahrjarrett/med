@@ -2578,3 +2578,15 @@ div.nav-sub {
   background-color: #fff;
   background: -webkit-linear-gradient(top, #ffffff 0%, #e1e3e4 100%);
   background: linear-gradient(to bottom, #ffffff 0%, #e1e3e4 100%); }
+
+.hero {
+  padding-top: 60px !important; }
+
+.marquee-wrapper {
+  min-height: 500px;
+  max-height: 500px;
+  position: relative;
+  top: 140px; }
+  @media screen and (min-width: 768px) {
+    .marquee-wrapper {
+      top: 100px; } }

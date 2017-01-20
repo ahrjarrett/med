@@ -1,0 +1,15 @@
+// TODO: overriding hero styles from other file...tidy up!
+
+.marquee-wrapper {
+  min-height: 500px;
+  max-height: 500px;
+  position: relative;
+  top: 140px;
+}
+
+@media screen and (max-width: 767px) {
+  .marquee-wrapper {
+    background-color: tomato !important;
+  }
+}
+
