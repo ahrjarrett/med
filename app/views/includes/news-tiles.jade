@@ -1,8 +1,71 @@
 #news-tiles.news-tiles.container
-  .col-md-4.col-sm-12
-    h1 col 1
-  .col-md-4.col-sm-12
-    h1 col 2
-  .col-md-4.col-sm-12
-    h1 col 3
+  .featured-feed
+    .panel.with-nav-tabs.panel-default
+      .panel-heading
+        ul.nav.nav-tabs.nav-justified.clearfix(role='tablist')
+          li.active(data-tab-selector='1')
+            a(href='#companyNewsFeed' data-toggle='tab' aria-expanded='true').
+              #[i.fa.fa-user-md]
+              Company News
+          li(data-tab-selector='2')
+            a(href='#industryNewsFeed' data-toggle='tab' aria-expanded='true').
+              #[i.fa.fa-hospital-o]
+              Industry News
+          li(data-tab-selector='3')
+            a(href='#liveFeed' data-toggle='tab' aria-expanded='true').
+              #[i.fa.fa-comments-o]
+              Live Feed
+      .tab-content.clearfix
 
+        #companyNewsFeed.tab-pane.fade.active.in(data-tab-number='1')
+          .article-container.col-md-7.col-sm-6.col-xs-12
+            .article-box
+              a.article-frame(href='#')
+                img.img-responsive(src='http://www.dremed.com/medical_equipment_news/wp-content/uploads/2016/06/dre-torino-550-mobile-blog-banner.jpg')
+                h3 Introducing the New DME Torino 550 – A Multi-Purpose Mobile Surgery Table Designed to Increase Operating Room Efficiency
+              .article-excerpt
+                p DME is pleased to announce an addition to its line of high-quality surgical tables designed to offer your facility an affordable, stylish upgrade. The #[a(href='#' target='_blank') DME Torino 550 Mobile Surgery Table] is a modern take on traditional medical equipment designs, outpacing its competitors in both attributes and value. With large, durable casters and a convenient braking system, medical professionals can easily move the DME Torino 550 Surgical Table throughout their facilities.
+          .article-container.col-md-5.col-sm-6.col-xs-12
+            ul
+              li
+                a(href='#')
+                  h3.title New Capnography Regulations Set for Colorado Dental Facilities
+                  span.cover(style='background-image:url(http://www.dremed.com/medical_equipment_news/wp-content/uploads/2016/01/dre-integra-vs02-blog-banner.jpg);')
+              li
+                a(href='#')
+                  h3.title Introducing the New DRE Integra SP VSO2 — Same Functionality, Streamlined Design
+                  span.cover(style='background-image:url(http://www.dremed.com/medical_equipment_news/wp-content/uploads/2016/01/dre-integra-vs02-blog-banner.jpg);')
+              li
+                a(href='#')
+                  h3.title This Just In: Section 179 Expands 2015 Deduction Limit to $500,000
+                  span.cover(style='background-image:url(http://www.dremed.com/medical_equipment_news/wp-content/uploads/2016/01/capitol-building.jpg);')
+
+        #industryNewsFeed.tab-pane.fade(data-tab-number='2')
+          .article-container.col-md-7.col-sm-6.col-xs-12
+            .article-box
+              a.article-frame(href='#')
+                img.img-responsive(src='http://www.dremed.com/medical_equipment_news/wp-content/uploads/2016/06/dre-torino-550-mobile-blog-banner.jpg')
+                h3 testing testing the New DME Torino 550 – A Multi-Purpose Mobile Surgery Table Designed to Increase Operating Room Efficiency
+              .article-excerpt
+                p DME is pleased to announce an addition to its line of high-quality surgical tables designed to offer your facility an affordable, stylish upgrade. The #[a(href='#' target='_blank') DME Torino 550 Mobile Surgery Table] is a modern take on traditional medical equipment designs, outpacing its competitors in both attributes and value. With large, durable casters and a convenient braking system, medical professionals can easily move the DME Torino 550 Surgical Table throughout their facilities.
+          .article-container.col-md-5.col-sm-6.col-xs-12
+            ul
+              li
+                a(href='#' title='New Capnography Regulations...')
+                  h3.title New Capnography Regulations Set for Colorado Dental Facilities
+                  span.cover(style='background-image: url("http://www.dremed.com/medical_equipment_news/wp-content/uploads/2016/06/co2-monitors-blog-banner.jpg")')
+
+        #liveFeed.tab-pane.fade(data-tab-number='3')
+          .article-container.col-md-7.col-sm-6.col-xs-12
+            .article-box
+              a.article-frame(href='#')
+                img.img-responsive(src='http://www.dremed.com/medical_equipment_news/wp-content/uploads/2016/06/dre-torino-550-mobile-blog-banner.jpg')
+                h3 this is 3 yo the New DME Torino 550 – A Multi-Purpose Mobile Surgery Table Designed to Increase Operating Room Efficiency
+              .article-excerpt
+                p DME is pleased to announce an addition to its line of high-quality surgical tables designed to offer your facility an affordable, stylish upgrade. The #[a(href='#' target='_blank') DME Torino 550 Mobile Surgery Table] is a modern take on traditional medical equipment designs, outpacing its competitors in both attributes and value. With large, durable casters and a convenient braking system, medical professionals can easily move the DME Torino 550 Surgical Table throughout their facilities.
+          .article-container.col-md-5.col-sm-6.col-xs-12
+            ul
+              li
+                a(href='#' title='New Capnography Regulations...')
+                  h3.title New Capnography Regulations Set for Colorado Dental Facilities
+                  span.cover(style='background-image: url("http://www.dremed.com/medical_equipment_news/wp-content/uploads/2016/06/co2-monitors-blog-banner.jpg")')
