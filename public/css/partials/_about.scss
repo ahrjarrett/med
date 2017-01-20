@@ -1,16 +1,23 @@
-a:visited { color: #ffbb00; }
+//a:visited { color: #ffbb00; }
 
 .about-wrapper {
   background-color: $main;
   margin-top: 100px;
+  height: 500px;
 }
 
 .about-btns {
   display: flex;
+  padding: 5px 0 0 0;
+  margin: 0 0 15px 0;
 }
 
 .about-btn {
   flex: 1 50%;
+}
+
+.about-content {
+  padding: 0;
 }
 
 .btn-bright {
@@ -24,7 +31,9 @@ a:visited { color: #ffbb00; }
     color: #fff;
     border-bottom: 4px solid #ffbb00;
     transition: all 0.3s ease;
+    &:visited { color: #fff; }
   }
+  &:visited { color: #ffbb00; }
 }
 
 .about {
@@ -42,7 +51,7 @@ a:visited { color: #ffbb00; }
   }
   img {
     position: absolute;
-    bottom: -65px;
+    bottom: -45px;
     left: 600px;
     z-index: 9999;
     height: 375px;
@@ -52,3 +61,17 @@ a:visited { color: #ffbb00; }
 .highlighted {
   color: #ffbb00;
 }
+
+.news-tiles {
+  position: relative;
+  z-index: 9999;
+  padding-top: 100px;
+  background-color: gray;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+
+

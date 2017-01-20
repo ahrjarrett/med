@@ -2690,22 +2690,25 @@ ul.marquee-nav-ul {
   height: 80px;
   background-color: white; }
 
-a:visited {
-  color: #ffbb00; }
-
 .about-wrapper {
   background-color: #11629f;
-  margin-top: 100px; }
+  margin-top: 100px;
+  height: 500px; }
 
 .about-btns {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  padding: 5px 0 0 0;
+  margin: 0 0 15px 0; }
 
 .about-btn {
   -webkit-box-flex: 1;
       -ms-flex: 1 50%;
           flex: 1 50%; }
+
+.about-content {
+  padding: 0; }
 
 .btn-bright {
   font-size: 17px;
@@ -2720,6 +2723,10 @@ a:visited {
     border-bottom: 4px solid #ffbb00;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease; }
+    .btn-bright:hover:visited {
+      color: #fff; }
+  .btn-bright:visited {
+    color: #ffbb00; }
 
 .about {
   padding: 25px 0; }
@@ -2734,10 +2741,18 @@ a:visited {
     line-height: 1.5; }
   .about img {
     position: absolute;
-    bottom: -65px;
+    bottom: -45px;
     left: 600px;
     z-index: 9999;
     height: 375px; }
 
 .highlighted {
   color: #ffbb00; }
+
+.news-tiles {
+  position: relative;
+  z-index: 9999;
+  padding-top: 100px;
+  background-color: gray;
+  margin: 0 auto;
+  text-align: center; }

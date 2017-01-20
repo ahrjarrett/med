@@ -1,11 +1,11 @@
 $(function() {
 
-  // slick initialization
-  $(document).ready(function() {
-    $('.carousel').slick({
-      /* settingName: setting */
-    })
-  })
+  //// slick initialization
+  //$(document).ready(function() {
+  //  $('.carousel').slick({
+  //    /* settingName: setting */
+  //  })
+  //})
 
 
 	var imgDir = './images/'
