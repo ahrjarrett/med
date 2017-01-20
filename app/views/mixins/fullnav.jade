@@ -61,11 +61,9 @@ mixin fullnav(currentPath)
                         i.fa.fa-globe
                         p (972) 522-8331
 
-    #navbar-banner.navbar-banner
+    #navbar-banner.navbar-banner.sm-hide
       ul#secondary-ul.navbar-ul.secondary-nav
         each path, name in subnav
           li.sub-nav-item.navbar-item(class=path == pageUrl ? 'active-link' : '')
             a(href='/#{path}')= name
-
-
 

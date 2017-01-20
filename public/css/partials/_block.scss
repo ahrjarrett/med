@@ -386,17 +386,19 @@
 
 #logo {
 	position: absolute !important;
+  top: 50px;
 	left: 20px;
 	z-index: 1501;
 	.logo {
 		img {
-			max-height:140px;
-			min-height:140px;
+			max-height:100px;
+			min-height:100px;
 			width:auto;
 		}
 	}
 	@media all and (max-width: 767px) {
 		left: 0;
+    top: 0;
 	}
 }
 .nav-map-ul {

@@ -4,7 +4,7 @@
 .nav-search-wrapper {
   display: flex;
   position: relative;
-  height: 90px;
+  height: 100px;
   width: 100%;
   padding: 0 calc((100% - 1240px) / 2 );
 }
@@ -19,7 +19,7 @@
 }
 .navbar-banner {
   position: absolute;
-  top: 140px;
+  top: 150px;
   padding: 0 calc((100% - 1240px) / 2);
   background-color: #11629f;
   background: linear-gradient(to bottom, #1a6ca8 0%,#01528f 100%);
@@ -118,7 +118,7 @@ button.btn-search {
 
 // nav-sub needs to be changed earlier
 div.nav-sub {
-  height: 90px;
+  height: 100px;
 }
 
 
