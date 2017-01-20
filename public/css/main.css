@@ -2901,3 +2901,88 @@ ul.marquee-nav-ul {
 
 .featured-feed .article-container > ul > li:first-child {
   border-top: none; }
+
+.footer-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+.footerlg {
+  font-family: "OpenSans-Light", sans-serif;
+  background-color: #1c2226;
+  padding: 25px 0; }
+  .footerlg li {
+    line-height: 22px;
+    padding: 5px 0; }
+  .footerlg h4 {
+    font-size: 15px;
+    font-family: "OpenSans-Book", sans-serif;
+    line-height: 25px;
+    margin: 0; }
+  .footerlg a {
+    color: #898c8f; }
+    .footerlg a:hover {
+      color: #fff; }
+
+.footer-list {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 25%;
+          flex: 1 25%; }
+
+.list-of-lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+.footer-bottom {
+  background-color: #14191c; }
+
+.navbar-bottom ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .navbar-bottom ul li {
+    padding-right: 15px; }
+    .navbar-bottom ul li a {
+      font-family: "OpenSans-Book", sans-serif;
+      color: #898c8f; }
+      .navbar-bottom ul li a:hover {
+        color: #fff; }
+
+.copyright {
+  color: #898c8f;
+  font-family: "OpenSans-Light", sans-serif; }
+
+.back-to-top {
+  width: 35px;
+  height: 35px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #11629f;
+  border: 1px solid #103f6b;
+  color: #fff !important;
+  font-size: 16px;
+  padding: 4px 0 0 0;
+  text-align: center;
+  z-index: 9999;
+  border-radius: 4px; }
+  .back-to-top:hover {
+    background-color: #ff9c00;
+    border: 1px solid #f57d27; }
+  .back-to-top i {
+    color: #fff !important; }
+
+.soc i {
+  font-size: 22px;
+  padding-right: 6px; }

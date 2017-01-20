@@ -3,9 +3,9 @@ module.exports = function IndexData(opts) {
 	this.title = 'Home';
 	this.url = '#';
 
-	this.buttons = [
-		'Pools', 'Spas', 'Firepits', 'Patio'
-	];
+	//this.buttons = [
+	//	'Pools', 'Spas', 'Firepits', 'Patio'
+	//];
 
 	this.home = {
 		ns: 'hero',

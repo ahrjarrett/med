@@ -1,14 +1,14 @@
 module.exports = function (app) {
 
-	app.locals.company = 'Sun Ray Pools';
-	app.locals.phone = 9723330714;
-	app.locals.rootUrl = 'https://www.sunraypoolstx.com';
+	app.locals.company = 'Dallas Medical Equipment';
+	app.locals.phone = 8005228331;
+	app.locals.rootUrl = 'https://git.heroku.com/medical-equipment.git';
 	app.locals.social = {
-		'https://www.facebook.com/SunRayPoolsTX/': 'facebook-square',
-		'https://twitter.com/sunraypoolstx': 'twitter-square',
+		'https://www.facebook.com/': 'facebook-square',
+		'https://twitter.com/': 'twitter-square',
 		'https://www.linkedin.com/in/andrewhjarrett/': 'linkedin-square',
     'https://plus.google.com/': 'google-plus',
-    'tel:+19723330714': 'shopping-cart'
+    '#': 'shopping-cart'
 	};
 	app.locals.blog = {
 		features: [
@@ -50,13 +50,12 @@ module.exports = function (app) {
 	};
 
 	app.locals.footerUl = {
-		'Home': '/',
-		// 'BBB': 'http://www.bbb.org/dallas/business-reviews/swimming-pool-contractors-dealers-design/sun-ray-pools-and-spas-in-rowlett-tx-90005855',
-		'Swimming Pools': '/swimming-pools',
-		'Get a Quote': '/#open-modal-contact',
-		'Financing': '/financing',
-		'Outdoor Living': '/outdoor-living',
-		'Swim Spas': '/swim-spas'
+		'Hospital & Education': '#',
+    'International Distribution': '#',
+    'Outpatient & Medical Specialties': '#',
+    'Medical Parts & Supplies': '#',
+    'Integrated Rental Services': '#',
+    'Veterinary Equipment': '#'
 	};
 	app.locals.nav = {
 		'Welcome': '',
