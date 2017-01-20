@@ -1,14 +1,14 @@
 $(function() {
 
-  $('a[href="#back-to-top"]').click(function(e) {
-    console.log(e)
-    $('html, body').animate({ scrollTop: 0 }, 'slow')
-    return false
-  })
+  //$('a[href="#back-to-top"]').click(function(e) {
+  //  console.log(e)
+  //  $('html, body').animate({ scrollTop: 0 }, 'slow')
+  //  return false
+  //})
 
-  //var scrollUp = document.getElementById('back-to-top')
+  //var scrollTop = document.getElementById('scrollTop')
 
-  //scrollUp.addEventListener('click', function(e) {
+  //scrollTop.addEventListener('click', function(e) {
   //  e.preventDefault()
   //  window.scrollTo(10, 100)
 
