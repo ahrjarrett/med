@@ -1,0 +1,71 @@
+mixin fullnav(currentPath)
+  - var pageUrl= currentPath
+
+  #nav.nav.sticky
+
+    #nav-top.nav-flex(role='navigation')
+      .nav-logo-wrapper
+        #logo.nav-logo-top
+          a.logo(href=rootUrl, style='margin-bottom:-50px')
+            img(src='/images/sun-ray-pools-logo.png')
+      .nav-ghost-wrapper
+      .nav-map-wrapper.sm-hide
+
+        ul.nav-map-ul
+          each path, value in nav
+            li.nav-map-li
+              a.smoothScroll(href='/#{path}')=value
+      .nav-social-wrapper.sm-hide
+        .nav-social-top
+          each val, path in social
+            a(href=path target='_blank')
+              i(class="fa fa-#{val}")
+
+      .nav-sm-only
+        a
+          button.mobile-menu(type='button')
+            span.hidden Menu
+    #nav-mobile.nav-sm-only.collapse-it
+      ul.nav-mobile-ul
+        each val, index in nav
+          a(href='/#{val}')
+            li.nav-mobile-li #{index}
+
+    #sub-nav.nav-sub-wrapper.sm-hide
+      .nav-sub
+        #searchbar-banner.searchbar-banner
+          .nav-search-wrapper
+            .nav-search
+              #searchbar.searchbar.nav-search-item
+                form#searchform.searchform(name="searchform")
+                  button.btn-search.btn-search-left All
+                    i.fa.fa-chevron-down
+                  input(type="text" placeholder="Search by Keyword or Web ID #")
+                  button.btn-search.btn-search-right
+                    i.fa.fa-search
+              #call-now.nav-search-item
+                .contact-toll-free
+                  span.toll-free-number.contact-now
+                    a(href='tel:3035228331')
+                      i.fa.fa-phone
+                      p (800) 522-8331
+                .call-now-small-wrapper
+                  .contact-email
+                    span.email-now.contact-now
+                      a(href='mailto:ahrjarrett@gmail.com')
+                        i.fa.fa-envelope
+                        p Contact
+                  .contact-local
+                    span.call-now.contact-now
+                      a(href='tel:3035228331')
+                        i.fa.fa-globe
+                        p (972) 522-8331
+
+    #navbar-banner.navbar-banner
+      ul#secondary-ul.navbar-ul.secondary-nav
+        each path, name in subnav
+          li.sub-nav-item.navbar-item(class=path == pageUrl ? 'active-link' : '')
+            a(href='/#{path}')= name
+
+
+
