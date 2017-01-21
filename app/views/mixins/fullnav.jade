@@ -67,19 +67,19 @@ mixin fullnav(currentPath)
               #call-now.nav-search-item
                 .contact-toll-free
                   span.toll-free-number.contact-now
-                    a(href='tel:3035228331')
+                    a(href='tel:#{phone}')
                       i.icon-phone
                       p (800) 522-8331
                 .call-now-small-wrapper
                   .contact-email
                     span.email-now.contact-now
                       a(href='mailto:ahrjarrett@gmail.com')
-                        i.icon-email
+                        i.icon-email.email-icon
                         p Contact
                   .contact-local
-                    span.call-now.contact-now
-                      a(href='tel:3035228331')
-                        i.icon-globe
+                    span.call-now.contact-now.call-local
+                      a(href='tel:#{phone}')
+                        i.icon-globe.globe-icon
                         p (972) 522-8331
 
     #navbar-banner.navbar-banner.sm-hide

@@ -2688,6 +2688,9 @@ button.btn-search {
   .contact-now i:hover {
     color: #18345d; }
 
+.globe-icon {
+  font-size: 17px; }
+
 .contact-toll-free {
   font-size: 32px;
   margin: 0 0 2px; }
