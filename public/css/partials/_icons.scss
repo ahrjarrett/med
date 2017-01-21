@@ -7,10 +7,50 @@
   text-transform: none;
   line-height: 1;
 
-  /* Better Font Rendering =========== */
+  /*=== Font Rendering ===*/
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+i.icon-linkedin:before {
+  content: "\e908";
+}
+
+.icon-social:before {
+  content: "\e908";
+}
+
+.icon-phone2:before {
+  content: "\e906";
+}
+
+.icon-fax:before {
+  content: "\e906";
+}
+
+.icon-contact3:before {
+  content: "\e906";
+}
+
+.icon-office:before {
+  content: "\e906";
+}
+
+.icon-phone:before {
+  content: "\e907";
+}
+
+.icon-contact:before {
+  content: "\e907";
+}
+
+.icon-atom:before {
+  content: "\e909";
+}
+
+.icon-key2:before {
+  content: "\e90a";
+}
 
 .icon-envelope:before {
   content: "\e900";
@@ -44,12 +84,28 @@
   content: "\ea8a";
 }
 
+.icon-google-plus:before {
+  content: "\ea8b";
+}
+
 .icon-google-plus3:before {
   content: "\ea8d";
 }
 
+.icon-facebook:before {
+  content: "\ea90";
+}
+
+.icon-twitter:before {
+  content: "\ea96";
+}
+
 .icon-github:before {
   content: "\eab0";
+}
+
+.icon-linkedin2:before {
+  content: "\eaca";
 }
 
 .icon-globe:before {
@@ -72,22 +128,3 @@
   content: "\e905";
 }
 
-.icon-phone2:before {
-  content: "\e906";
-}
-.icon-fax:before {
-  content: "\e906";
-}
-.icon-contact3:before {
-  content: "\e906";
-}
-.icon-office:before {
-  content: "\e906";
-}
-
-.icon-phone:before {
-  content: "\e907";
-}
-.icon-contact:before {
-  content: "\e907";
-}
