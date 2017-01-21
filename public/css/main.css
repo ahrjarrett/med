@@ -856,7 +856,8 @@ span.carousel-btn {
     color: #999; }
 
 .nav-social-top .fa-google-plus {
-  padding-right: 15px; }
+  padding-right: 15px;
+  margin-left: 4px !important; }
 
 .fa-facebook-square:hover {
   color: #3B5998; }

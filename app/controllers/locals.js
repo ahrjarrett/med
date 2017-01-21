@@ -13,8 +13,8 @@ module.exports = function (app) {
 		'https://www.facebook.com/': 'facebook-square',
 		'https://twitter.com/': 'twitter-square',
 		'https://www.linkedin.com/in/andrewhjarrett/': 'linkedin-square',
-    'https://plus.google.com/': 'google-plus',
-    '#': 'shopping-cart'
+    //'#': 'shopping-cart',
+    'https://plus.google.com/': 'google-plus'
 	};
 	app.locals.blog = {
 		features: [
