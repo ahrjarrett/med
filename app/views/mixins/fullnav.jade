@@ -5,15 +5,24 @@ mixin fullnav(currentPath)
   //- sticky nav
   nav#stickyNav.navbar.affix.navbar-inverse(data-spy='affix' data-offset-top='100')
     .container
-      ul.nav.navbar-nav
-        li.stickyLogo: a(href='#')
-          img(src='/images/logo.png')
-          p DME
-        li: a(href='#') Equipment
-        li: a(href='#') Supplies
-        li: a(href='#') Services
+      .sticky-nav-wrap
+        ul.nav.navbar-nav
+          li.stickyLogo: a(href='#')
+            img(src='/images/logo.png')
+            p DME
+          li: a(href='#') Equipment
+          li: a(href='#') Supplies
+          li: a(href='#') Services
+      .sticky-icons-wrap
         li.stickyPhone
-          a(href='#{phone}')= prettifyPhone(phone)
+          .stickyPhoneWrapper
+            a(href='tel:#{phone}')
+              i.fa.fa-phone
+              h2= prettifyPhone(phone)
+        li.stickySearch
+          a(href='#'): i.fa.fa-search
+        //- li.stickyCart
+          //- a(href='#'): i.fa.fa-shopping-cart
 
   #nav.nav
 

@@ -377,8 +377,9 @@
 
 
 #logo {
+  translate: scaleX(-1);
 	position: absolute !important;
-  top: 73px;
+  top: 64px;
 	left: 20px;
 	z-index: 1503;
   width: 325px;
@@ -388,30 +389,30 @@
     align-items: baseline;
 
     p {
+      font-family: $sansBold;
+      position: absolute;
+      z-index: -1;
+      top: 32px;
+      left: 138px;
+      color: #2b2b2b;
+      font-size: 76px;
+      text-align: right;
+      margin: 0;
+      line-height: 0;
+      letter-spacing: -4px;
+
       @media screen and (max-width: 767px) {
         font-size: 40px;
         color: #fff;
         letter-spacing: 0px;
         top: 35px;
         left: 12px;
-
       }
-
-      font-family: $sansBold;
-      position: absolute;
-      top: 30px;
-      left: 120px;
-      color: #2b2b2b;
-      font-size: 70px;
-      text-align: right;
-      margin: 0;
-      line-height: 0;
-      letter-spacing: -4px;
     }
 
 		img {
       position: absolute;
-      height: 76px;
+      height: 84px;
 			width:auto;
       @media screen and (max-width: 767px) {
         height: 48px;
@@ -420,6 +421,7 @@
       }
 		}
 	}
+
 	@media all and (max-width: 767px) {
 		left: 0;
     top: 0;
