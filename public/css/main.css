@@ -8,6 +8,12 @@ html, body {
   overflow-y: scroll; }
 
 @font-face {
+  font-family: 'icons';
+  src: url("../fonts/icons/icons.eot");
+  src: url("../fonts/icons/icons.eot") format("embedded-opentype"), url("../fonts/icons/icons.woff") format("woff"), url("../fonts/icons/icons.ttf") format("truetype"), url("../fonts/icons/icons.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
   font-family: 'FontAwesome';
   src: url("../fonts/font-awesome/fontawesome-webfont.eot?v=4.5.0");
   src: url("../fonts/font-awesome/fontawesome-webfont.eot") format("embedded-opentype"), url("../fonts/font-awesome/fontawesome-webfont.woff2") format("woff2"), url("../fonts/font-awesome/fontawesome-webfont.woff") format("woff"), url("../fonts/font-awesome/fontawesome-webfont.ttf") format("truetype"), url("../fonts/font-awesome/fontawesome-webfont.svg") format("svg");
@@ -145,6 +151,80 @@ html, body {
   src: url("../fonts/open-sans/OpenSans-ExtraBoldItalic.eot") format("embedded-opentype"), url("../fonts/open-sans/OpenSans-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/open-sans/OpenSans-ExtraBoldItalic.woff") format("woff"), url("../fonts/open-sans/OpenSans-ExtraBoldItalic.ttf") format("truetype"), url("../fonts/open-sans/OpenSans-ExtraBoldItalic.svg") format("svg");
   font-weight: 800;
   font-style: italic; }
+[class^="icon-"], [class*=" icon-"] {
+  font-family: "icons" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased; }
+
+.icon-envelope:before {
+  content: "\e900"; }
+
+.icon-mail:before {
+  content: "\e900"; }
+
+.icon-email:before {
+  content: "\e900"; }
+
+.icon-contact2:before {
+  content: "\e900"; }
+
+.icon-envelop:before {
+  content: "\e945"; }
+
+.icon-key:before {
+  content: "\e98d"; }
+
+.icon-mail4:before {
+  content: "\ea86"; }
+
+.icon-google3:before {
+  content: "\ea8a"; }
+
+.icon-google-plus3:before {
+  content: "\ea8d"; }
+
+.icon-github:before {
+  content: "\eab0"; }
+
+.icon-globe:before {
+  content: "\e901"; }
+
+.icon-youtube:before {
+  content: "\e902"; }
+
+.icon-linkedin-with-circle:before {
+  content: "\e903"; }
+
+.icon-twitter-with-circle:before {
+  content: "\e904"; }
+
+.icon-facebook-with-circle:before {
+  content: "\e905"; }
+
+.icon-phone2:before {
+  content: "\e906"; }
+
+.icon-fax:before {
+  content: "\e906"; }
+
+.icon-contact3:before {
+  content: "\e906"; }
+
+.icon-office:before {
+  content: "\e906"; }
+
+.icon-phone:before {
+  content: "\e907"; }
+
+.icon-contact:before {
+  content: "\e907"; }
+
 @media screen and (max-width: 640px) {
   .xs-hide {
     display: none !important; } }
