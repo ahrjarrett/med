@@ -17,13 +17,12 @@ mixin fullnav(currentPath)
         li.stickyPhone
           .stickyPhoneWrapper
             a(href='tel:#{phone}')
-              i.icon-phone2
+              i.icon-phone
               h2= prettifyPhone(phone)
         li.stickySearch
           a(href='#'): i.fa.fa-search
 
   #nav.nav
-
     #nav-top.nav-flex(role='navigation')
       .nav-logo-wrapper
         #logo.nav-logo-top
@@ -41,7 +40,7 @@ mixin fullnav(currentPath)
         .nav-social-top
           each val, path in social
             a(href=path target='_blank')
-              i(class="fa fa-#{val}")
+              i(class="#{val}")
 
       .nav-sm-only
         a
@@ -69,18 +68,18 @@ mixin fullnav(currentPath)
                 .contact-toll-free
                   span.toll-free-number.contact-now
                     a(href='tel:3035228331')
-                      i.fa.fa-phone
+                      i.icon-phone
                       p (800) 522-8331
                 .call-now-small-wrapper
                   .contact-email
                     span.email-now.contact-now
                       a(href='mailto:ahrjarrett@gmail.com')
-                        i.fa.fa-envelope
+                        i.icon-email
                         p Contact
                   .contact-local
                     span.call-now.contact-now
                       a(href='tel:3035228331')
-                        i.fa.fa-globe
+                        i.icon-globe
                         p (972) 522-8331
 
     #navbar-banner.navbar-banner.sm-hide

@@ -10,11 +10,12 @@ module.exports = function (app) {
 
 	app.locals.rootUrl = 'https://git.heroku.com/medical-equipment.git';
 	app.locals.social = {
-		'https://www.facebook.com/': 'facebook-square',
-		'https://twitter.com/': 'twitter-square',
-		'https://www.linkedin.com/in/andrewhjarrett/': 'linkedin-square',
-    //'#': 'shopping-cart',
-    'https://plus.google.com/': 'google-plus'
+		'https://www.facebook.com/': 'icon-facebook-with-circle',
+		'https://twitter.com/': 'icon-twitter-with-circle',
+		'https://www.linkedin.com/in/andrewhjarrett/': 'icon-linkedin-with-circle',
+    'https://plus.google.com/': 'icon-google-plus3',
+    'https://youtube.com/': 'icon-youtube',
+    'https://github.com/ahrjarrett': 'icon-github'
 	};
 	app.locals.blog = {
 		features: [
