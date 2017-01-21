@@ -4,10 +4,16 @@ mixin fullnav(currentPath)
   #top
   //- sticky nav
   nav#stickyNav.navbar.affix.navbar-inverse(data-spy='affix' data-offset-top='100')
-    ul.nav.navbar-nav
-      li: a(href='#') Sticky Nav 1
-      li: a(href='#') Sticky Nav 2
-      li: a(href='#') Sticky Nav 3
+    .container
+      ul.nav.navbar-nav
+        li.stickyLogo: a(href='#')
+          img(src='/images/logo.png')
+          p DME
+        li: a(href='#') Equipment
+        li: a(href='#') Supplies
+        li: a(href='#') Services
+        li.stickyPhone
+          a(href='#{phone}')= prettifyPhone(phone)
 
   #nav.nav
 

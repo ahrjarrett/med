@@ -154,6 +154,40 @@ body {
 
     // below are stylistic choices, not mandatory for sticky to work
     border-radius: 0;
+    border-bottom: 3px solid #fff;
+    // #3167B0 is exactly the color of the logo
+    box-shadow: 0 0 0 4px #3167B0;
+    background-color: #002041;
+    color: #fff;
+    height: 53px;
+    margin: 0;
+    padding: 0;
+
+    li a {
+      text-transform: uppercase;
+      font-size: 15px;
+      font-family: $sans;
+      color: #fff;
+      &:hover { color: $hoverLink; }
+    }
+
+    li.stickyLogo {
+      width: 200px;
+      img {
+        position: absolute;
+        top: 9px;
+        left: 50%;
+        height: 46px;
+      }
+      p {
+        position: absolute;
+        top: 17px;
+        left: 10px;
+        //left: 70px;
+        font-size: 30px;
+        color: #fff;
+      }
+    }
   }
 }
 

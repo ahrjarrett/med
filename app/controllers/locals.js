@@ -1,7 +1,13 @@
 module.exports = function (app) {
 
 	app.locals.company = 'Dallas Medical Equipment';
+
 	app.locals.phone = 8005228331;
+  app.locals.prettifyPhone = function(phone) {
+    var ph = phone.toString()
+    return '(' + ph.slice(0,3) + ') ' + ph.slice(3,6) + '-' + ph.slice(6)
+  }
+
 	app.locals.rootUrl = 'https://git.heroku.com/medical-equipment.git';
 	app.locals.social = {
 		'https://www.facebook.com/': 'facebook-square',

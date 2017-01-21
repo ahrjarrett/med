@@ -2598,7 +2598,34 @@ body {
     position: fixed;
     z-index: 9999;
     width: 100%;
-    border-radius: 0; } }
+    border-radius: 0;
+    border-bottom: 3px solid #fff;
+    box-shadow: 0 0 0 4px #3167B0;
+    background-color: #002041;
+    color: #fff;
+    height: 53px;
+    margin: 0;
+    padding: 0; }
+    #stickyNav li a {
+      text-transform: uppercase;
+      font-size: 15px;
+      font-family: "OpenSans-Book", sans-serif;
+      color: #fff; }
+      #stickyNav li a:hover {
+        color: #ffab00; }
+    #stickyNav li.stickyLogo {
+      width: 200px; }
+      #stickyNav li.stickyLogo img {
+        position: absolute;
+        top: 9px;
+        left: 50%;
+        height: 46px; }
+      #stickyNav li.stickyLogo p {
+        position: absolute;
+        top: 17px;
+        left: 10px;
+        font-size: 30px;
+        color: #fff; } }
 @media screen and (max-width: 767px) {
   #stickyNav {
     display: none; } }
