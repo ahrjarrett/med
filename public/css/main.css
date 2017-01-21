@@ -163,7 +163,16 @@ html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-i.icon-linkedin:before {
+.icon-atom:before {
+  content: "\e909"; }
+
+.icon-health:before {
+  content: "\e914"; }
+
+.icon-graph:before {
+  content: "\e915"; }
+
+.icon-linkedin:before {
   content: "\e908"; }
 
 .icon-social:before {
@@ -187,8 +196,23 @@ i.icon-linkedin:before {
 .icon-contact:before {
   content: "\e907"; }
 
-.icon-atom:before {
-  content: "\e909"; }
+.icon-lab-flask:before {
+  content: "\e90b"; }
+
+.icon-globe:before {
+  content: "\e901"; }
+
+.icon-youtube:before {
+  content: "\e902"; }
+
+.icon-linkedin-with-circle:before {
+  content: "\e903"; }
+
+.icon-twitter-with-circle:before {
+  content: "\e904"; }
+
+.icon-facebook-with-circle:before {
+  content: "\e905"; }
 
 .icon-key2:before {
   content: "\e90a"; }
@@ -234,21 +258,6 @@ i.icon-linkedin:before {
 
 .icon-linkedin2:before {
   content: "\eaca"; }
-
-.icon-globe:before {
-  content: "\e901"; }
-
-.icon-youtube:before {
-  content: "\e902"; }
-
-.icon-linkedin-with-circle:before {
-  content: "\e903"; }
-
-.icon-twitter-with-circle:before {
-  content: "\e904"; }
-
-.icon-facebook-with-circle:before {
-  content: "\e905"; }
 
 @media screen and (max-width: 640px) {
   .xs-hide {
@@ -848,7 +857,7 @@ span.carousel-btn {
     .nav-social-wrapper {
       margin: 0 20px 0 0; } }
   .nav-social-wrapper i {
-    margin: 0 .75rem !important; }
+    margin: 0 .6rem !important; }
 
 .nav-ghost-wrapper {
   display: -webkit-box;
@@ -2995,10 +3004,10 @@ ul.marquee-nav-ul {
 
 .featured-feed .nav-tabs i {
   display: inline-block;
-  font-size: 22px;
+  font-size: 24px;
   margin-right: 5px;
   position: relative;
-  top: 3px; }
+  top: 4px; }
 
 .featured-feed .nav-tabs > li > a {
   border: 0px solid #fff !important;
