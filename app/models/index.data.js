@@ -1,6 +1,6 @@
 module.exports = function IndexData(opts) {
 
-	this.title = 'Home';
+	this.title = 'DME';
 	this.url = '#';
 
 	//this.buttons = [
