@@ -10,6 +10,7 @@ module.exports = function (app) {
 
 	app.locals.rootUrl = 'https://git.heroku.com/medical-equipment.git';
 	app.locals.social = {
+    'https://github.com/ahrjarrett': 'icon-pacman',
     'https://github.com/ahrjarrett': 'icon-github',
 		//'https://www.facebook.com/': 'icon-facebook-with-circle',
 		//'https://twitter.com/': 'icon-twitter-with-circle',
