@@ -112,6 +112,12 @@ button.btn-search {
       color: $mainDark;
     }
   }
+  // overrides for phone icon
+  i.icon-phone {
+    font-size: 30px;
+    padding-top: 10px;
+    padding-right: 1px;
+  }
 }
 
 .globe-icon {

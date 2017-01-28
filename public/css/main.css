@@ -2687,6 +2687,10 @@ button.btn-search {
   padding-right: 4px; }
   .contact-now i:hover {
     color: #18345d; }
+.contact-now i.icon-phone {
+  font-size: 30px;
+  padding-top: 10px;
+  padding-right: 1px; }
 
 .globe-icon {
   font-size: 17px; }
